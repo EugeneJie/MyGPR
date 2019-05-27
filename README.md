@@ -1,5 +1,6 @@
 # MyGPR
 ## 用机器学习方法对GPR模拟数据进行异常定位和分类
+*由于GitHub的限制，本项目只上传了大部分的实现代码（不包含gprMax3和YOLO模型的源码、数据集、训练模型以及MyGPR软件集成部分），完整的项目下载地址：https://pan.baidu.com/s/1GonJ49mzBCsCaM2c0gmEeQ 提取码：ebmw*
 ### 配置说明
 在计算机配置较低时建议使用Google Colab来进行本文所涉及的数据模拟以及模型训练等工作，该网站（https://colab.research.google.com ）需要使用Google的Gmail邮箱账号进行登录，并与谷歌云盘进行绑定以存储训练数据以及训练模型等资源。它实际上是一个免费的云端Jupyter Notebook运行环境，支持Python编程语言，并且已经对Python中常用的模块特别是机器学习相关模块进行了配置，因此我们可以在该环境下快速建立自己的机器学习项目。详细的配置项如下：<br>
 * 正演程序：gprMax3（从https://github.com/gprmax/gprMax 下载程序源码，修改tools.plot_Bscan源码(或直接使用本项目提供的已修改过的源码)，并上传到谷歌云盘）
